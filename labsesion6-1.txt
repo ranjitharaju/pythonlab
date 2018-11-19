@@ -1,0 +1,74 @@
+def add():
+	a=10
+	b=20
+	c=(a+b)
+	print(c)
+add()
+
+
+
+
+def add():
+	a=10
+	b=20
+	c=(a+b)
+	return c
+d=add()
+print(d)
+
+
+def sub():
+	a=int(input("enter the first number"))
+	b=int(input("enter the second number"))
+	c=(a-b)
+	return c
+d=sub()
+print(d)
+
+
+
+def mul():
+	a=int(input("enter the first number"))
+	b=int(input("enter the second number"))
+	c=(a*b)
+	return c
+d=mul()
+print("product of first and seond num is",d)
+
+
+
+
+def add(a,b):
+	return(a+b)
+def sub(a,b):
+	return(a-b)
+def mul(a,b):
+	return(a*b)
+def div(a,b):
+	return(a/b)
+i=int(input("enter the first number "))
+j=int(input("enter the second number "))
+
+d=add(i,j)
+print("addition of a and b is",d)
+#e=sub(i,j)
+print("subraction of a and b is ",sub(i,j))
+
+print("multiplication of a and b is ",mul(i,j))
+print("division of a and b is ",div(i,j)) 
+
+
+
+
+
+fruits=['orange','pineapple','banana','mango']
+for i in fruits:
+	print(i)
+    #or
+print(fruits[2])  
+
+
+
+
+studentlist={1:'siddhart', 2:'bhavana', 3:'hari' , 4:'harsha'}
+print(studentlist[3])

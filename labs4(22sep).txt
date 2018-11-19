@@ -1,0 +1,73 @@
+greatest among three numbers
+
+a=int(input("enter the first number"))
+b=int(input("enter the first number"))
+c=int(input("enter the first number"))
+if (a>b) and (a>c): print(a,"is the greatest")
+elif (b>a) and (b>c): print(b,"is the greatest")
+else:
+	print(c,"is the greatest")
+
+
+print acending order using while loop
+
+a=1
+while(a<=5):
+      print(a)
+      a=a+1
+
+print decending order using while loop
+
+a=5
+while(a>=1):
+      print(a)
+      a=a-1
+
+print all even numbers from 0 to 250
+
+a=0
+while(a<=250):
+     print(a)
+     a=a+2
+
+      OR
+
+
+
+
+
+
+
+print all odd numbers from 0 to 250
+a=-1
+while(a<=250):
+     print(a)
+     a=a+2
+       OR
+
+
+
+
+
+
+
+generation of random number 
+
+import random
+r=random.randint(1,10)
+print(r)
+
+
+generation of random number and exit
+
+ import random
+a=random.randint(1,6)
+while True:
+	n=input("press r to roll and q to quit")
+
+	if n=='r':
+		print(a)
+	elif n=='q':
+		exit()
+	else:
+		print("invalid entry")

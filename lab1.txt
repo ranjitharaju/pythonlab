@@ -1,0 +1,10 @@
+1.started with creating a github account
+2.opened terminal to type commands
+3.created a directory in the computer
+4.learnt linux commands
+   pwd- to see present directory
+   ls- to show all the files and folders in the present directory
+   mkdir- create new folder/directory
+   man ls- shows the manual
+5.created a first program in python using sublime
+6. executed the program

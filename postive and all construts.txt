@@ -1,0 +1,20 @@
+a=int(input("enter the number to check even or odd"))
+if a>0:
+	print("a is a positive number")
+else:
+	print("a is a negative number")
+
+
+
+a=int(input("enter the marks obtained"))
+if a>=90:
+	print("the grade obtained is A+")
+elif a>=80:
+	print("the grade obtained is A")
+elif a>=70:
+	print("the grade obtained is B+")
+elif a>=60:
+	print("the grade obtained is B")
+elif a>=40:
+	print("the grade obtained is C")
+else: print("FAIL")
